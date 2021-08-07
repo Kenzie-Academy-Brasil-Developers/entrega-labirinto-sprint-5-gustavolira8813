@@ -1,0 +1,79 @@
+body{
+    background: rgb(188, 235, 236);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#box{
+    width: 640px;
+    display: flex;
+    background: radial-gradient(#00bcd4, transparent);
+    flex-wrap: wrap;
+    max-width: 640px;
+    min-width: 640px;
+    
+
+}
+/* #user{
+    width: 20px;
+    height: 20px;
+    background: crimson;
+    position:absolute;
+    left: 120px;
+    top: 283px;
+    border-radius: 7px;
+} */
+.user{
+        width: 20px;
+        height: 20px;
+        background: crimson;
+        /* margin: 5px; */
+        border-radius: 5px;
+}
+.wall {
+    width: 20px;
+    height: 20px;
+    background: gray;
+    margin: 5px;
+    border-radius: 5px;
+}
+.final {
+    width: 20px;
+    height: 20px;
+    background: blue;
+    margin: 5px;
+    border-radius: 5px;
+}
+.caminho{
+    width: 20px;
+    height: 20px;
+    background: rgb(255, 252, 252);
+    margin: 5px;
+    border-radius: 5px;
+}
+.congratulations{
+    position: absolute;
+    z-index: 2;
+    background: radial-gradient(#4df9de, transparent);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+   
+    top: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+
+}
+
+
+
+
+
+
+
+
+
